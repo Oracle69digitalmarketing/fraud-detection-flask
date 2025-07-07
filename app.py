@@ -11,7 +11,7 @@ def home():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    values = [float(request.form[f'v{i}']) for i in range(1, 5)]  # Simplified: first 4 inputs
+    values = [float(request.form[f'v{i}']) for i in range(1, 5)]  # Simplified to 4 features
     features = [np.array(values)]
     prediction = model.predict(features)
     result = 'Fraudulent Transaction' if prediction[0] == 1 else 'Legitimate Transaction'
