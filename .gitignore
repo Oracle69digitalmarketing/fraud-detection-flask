@@ -12,6 +12,8 @@ __pycache__/
 *.csv
 *.joblib
 
+fraud_model.pkl
+
 # Distribution / packaging
 .Python
 build/
