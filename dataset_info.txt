@@ -1,0 +1,11 @@
+Dataset: creditcard.csv
+Total rows: 284,807
+Total columns: 31
+
+Features:
+- V1 to V28: PCA-transformed numerical features
+- Amount: Transaction amount
+- Time: Seconds elapsed since first transaction
+- Class: Target (0 = Legit, 1 = Fraud)
+
+Fraud cases: 492 (0.17%)
