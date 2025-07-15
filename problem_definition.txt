@@ -1,0 +1,5 @@
+Problem Category: Finance – Fraud Detection
+
+This project aims to identify fraudulent transactions from a dataset of credit card operations. The goal is to build a classification model that flags high-risk transactions for real-time detection and intervention.
+
+Target variable: Class (0 = Legitimate, 1 = Fraud)
