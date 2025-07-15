@@ -1,26 +1,24 @@
-# AI/ML Final Project – Fraud Detection
+# Phase 1 – Dataset & Problem Definition
 
-## 🚀 Project Overview
-An AI-powered credit card fraud detection system using a trained Random Forest model and Flask web interface.
+This repository contains Phase 1 deliverables for the DSA AI/ML Final Project.
 
-## 📊 Dataset
-Kaggle: [Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+## 📌 Project Title
+**Design and Deployment of an AI-Powered Predictive System**
 
-## 🛠 Tech Stack
-- Python
-- Scikit-learn
-- Flask
-- HTML/CSS (for UI)
+## 🎯 Selected Category
+**Finance – Fraud Detection using credit card transaction data**
 
-## 📦 Project Files
-- app.py – Flask app
-- model.py – training script
-- fraud_model.pkl – trained model (placeholder)
-- templates/ – HTML UI
-- requirements.txt – dependencies
+## 🧠 Problem Statement
+Can machine learning detect fraudulent credit card transactions based on anonymized features, and be deployed to support real-time decision-making through a web interface?
 
-## 📝 Note
-This repo excludes the dataset due to file size. Please download from the Kaggle link above.
+## 📊 Dataset Source
+[Kaggle – Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
-## ✅ Screenshot
-*Include screenshot in report PDF.*
+## 📁 Contents
+- `problem_definition.txt`
+- `dataset_info.txt`
+- `dataset_link.txt`
+- `data/` folder (contains or links to dataset)
+
+## 🚀 Next Phase
+Phase 2 – Data Preprocessing & EDA
